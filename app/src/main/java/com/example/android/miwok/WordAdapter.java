@@ -22,13 +22,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     private int mColorResourceId;
 
-    /**
-     * Create a new {@link WordAdapter} object.
-     *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param words is the list of {@link Word}s to be displayed.
-     * @param colorResourceId is the resource ID for the background color for this list of words
-     */
     public WordAdapter(Context context, ArrayList<Word> words, int colorResourceId) {
         super(context, 0, words);
         mColorResourceId = colorResourceId;
@@ -84,3 +77,4 @@ public class WordAdapter extends ArrayAdapter<Word> {
     }
 
 }
+
